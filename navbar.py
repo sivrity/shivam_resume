@@ -16,7 +16,7 @@ def streamlit_menu():
 def horizontal_menu():
     Hori_selected = option_menu(
         menu_title=None,  # required
-        options=["Python", "Java", "Php", "JavaScript"],  # required
+        options=["Python", "Java", "Php", "JavaScript", "Cloud", "FullStack"],  # required
         # icons=["house", "book", "envelope"],  # optional
         menu_icon="cast",  # optional
         default_index=0,  # optional
